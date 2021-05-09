@@ -8,6 +8,7 @@ let bank = {
         nightclub: 0,
         drugLord: 0,
         
+        
     }
 }
 

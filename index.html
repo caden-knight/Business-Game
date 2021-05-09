@@ -5,18 +5,23 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title></title>
+    <link rel="stylesheet" href="stylesheet.css">
+    <title>Get Rich</title>
 </head>
 
 <body>
-    <div id="candy_ctr">
-        <div>
-            <span>you have
-                <span id="moneyAmt">$0</span>
-            </span>
-        </div> 
+    <div id="bankDisplay">
+        <h1 id="bankTitle">Bank</h1>
+    </div>
+    <div class="businesses">
         <a href="counterfeit.html">
-            <button type="button" id="start" onclick="moneyCounter()">Start a Counterfeit Business</button>
+            <button type="button" id="startCF" onclick="moneyCounter()">Start a Counterfeit Business - $2500</button>
+        </a>
+        <a href="nightclub.html">
+            <button class="startNC">Start Nightclub</button>
+        </a>
+        <a href="drugRun.html">
+            <button class="startDL">Become a Drug Lord</button>
         </a>
     </div>
     <script type="text/javascript" src="js/index.js"></script>
