@@ -1,5 +1,12 @@
-{
-    "wallet": 0,
+[
+    {
+    "wallet": 5000,
     "bankAcct": 0,
-    "offshore": 0
+    "offshore": 0,
+    "businessEarnings": {
+        "counterfeit": 0,
+        "nightclub": 0,
+        "drugLord": 0
+    }
 }
+]

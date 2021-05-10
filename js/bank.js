@@ -6,9 +6,7 @@ let bank = {
     businessEarnings: {
         counterfeit: 0,
         nightclub: 0,
-        drugLord: 0,
-        
-        
+        drugLord: 0
     }
 }
 
